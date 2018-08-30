@@ -1,0 +1,111 @@
+@CHARSET "UTF-8";
+
+#page{
+	margin:0 auto;
+	width:1000px;
+	height:750px;
+	border: 1px solid black;
+	overflow:hidden;
+	background-color:#f5f5f5;
+}
+
+
+/*ヘッダー要素*/
+#header{
+	width:1000px;
+	height:110px;
+	padding-left:10px;
+	background-color:black
+}
+
+#header-left{
+	float:left;
+}
+
+#header img{
+	width:400px;
+	height:110px;
+}
+
+#header-right{
+	float:right;
+	margin-top:20px;
+	margin-right:30px;
+	border: 1px solid black;
+}
+
+#header-right i{
+	color:#0066CC;
+	font-size:4rem;
+	margin-right:40px;
+	cursor:pointer;
+}
+
+#header-right i:hover{
+	color:white;
+}
+
+/*ログイン画面*/
+
+#loginlogo{
+	width:150px;
+	height:150px;
+	margin: 0 auto;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+#loginlogo i{
+	color:orange;
+	font-size:10rem;
+}
+
+#main{
+	width:250px;
+	height:300px;
+	margin: 0 auto;
+	border:1px solid gray;
+	border-radius:10px;
+	background-color:white;
+	text-align:center;
+}
+
+#main p{
+	display:block;
+	width:150px;
+	border-left:5px solid orange;
+}
+
+#main input{
+	width:200px;
+	height:20px;
+	border-radius:3px;
+}
+
+#main button{
+	width:200px;
+	height:30px;
+	border-radius:3px;
+	color:white;
+	background-color:#0000cd;
+	cursor:pointer;
+}
+
+#main button:hover{
+	background-color:#00bfff;
+}
+
+#main label a{
+	text-decoration:none;
+	border-bottom:2px dotted black;
+}
+
+#footer{
+	margin-top:48px;
+	width:990px;
+	height:110px;
+	padding-left:10px;
+	background-color:black;
+	text-align:center;
+	line-height:110px;
+}

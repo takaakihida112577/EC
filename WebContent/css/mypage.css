@@ -1,0 +1,261 @@
+@CHARSET "UTF-8";
+
+#page{
+	width:1000px;
+	border: 1px solid black;
+	overflow:hidden;
+	margin:0 auto;
+	background-color:#f5f5f5;
+}
+
+
+/*ヘッダー要素*/
+#header{
+	width:1000px;
+	height:110px;
+	padding-left:10px;
+	background-color:black
+}
+
+#header-left{
+	float:left;
+}
+
+#header img{
+	width:400px;
+	height:110px;
+}
+
+#header-right{
+	float:right;
+	margin-top:20px;
+	margin-right:30px;
+	border: 1px solid black;
+}
+
+#header-right i{
+	float:left;
+	color:#0066CC;
+	font-size:4rem;
+	margin-right:40px;
+	cursor:pointer;
+}
+
+#header-right i:hover{
+	color:white;
+}
+
+/*title要素*/
+#title{
+	margin:0 auto;
+	line-height:60px;
+	background-color:orange;
+}
+
+#title h1{
+	margin-top:0px;
+	height:60px;
+	border-bottom:5px double black;
+}
+/*マイページレフト*/
+#left{
+	float:left;
+	width:42%;
+	padding-left:60px;
+}
+
+#left h1{
+	width:300px;
+	padding:0px;
+	border-left:5px solid orange;
+	line-height:40px;
+	box-shadow:0.7px 0.7px 0.7px 0.7px rgba(0,0,0,0.2) inset;
+}
+
+#left h1 button{
+	width:65px;
+	height:40px;
+	border-radius:5px;
+	font-size:1.2rem;
+	color:white;
+	background-color:#0066CC;
+	cursor:pointer;
+}
+
+#right_bottom button{
+	width:65px;
+	height:40px;
+	border-radius:5px;
+	font-size:1.2rem;
+	color:white;
+	background-color:red;
+	cursor:pointer;
+}
+
+#left h1 button:hover,
+#right_bottom button:hover{
+	background-color:gray;
+}
+
+#left h3{
+	width:200px;
+	margin-left:20px;
+	border-left:5px solid #0066CC;
+	box-shadow:0.7px 0.7px 0.7px 0.7px rgba(0,0,0,0.2) inset;
+}
+
+#left h3:nth-child(3){
+	width:210px;
+}
+
+#left p{
+	margin-left:20px;
+}
+
+/*マイページライト*/
+#right{
+	float:left;
+	width:50%;
+}
+
+/*マイページライトトップ*/
+#right_top{
+
+}
+
+#right_top h1{
+	border-left:5px solid orange;;
+	width:300px;
+	box-shadow:0.7px 0.7px 0.7px 0.7px rgba(0,0,0,0.2) inset;
+}
+
+#right_top p{
+	font-size:3rem;
+	color:red;
+}
+
+#right_top div{
+	float:right;
+	margin-right:130px;
+	margin-top:-115px;
+	margin-bottom:0;
+}
+
+#chargebutton{
+	background-color:#0066CC;
+	border-radius:5px;
+	cursor:pointer;
+}
+
+#chargebutton i{
+	font-size:5rem;
+}
+
+#chargebutton:hover{
+	background-color:gray;
+}
+
+/*マイページライトボトム*/
+#right_bottom{
+	clear:both;
+}
+
+#right_bottom h1{
+	border-left:5px solid orange;
+	width:283px;
+	box-shadow:0.7px 0.7px 0.7px 0.7px rgba(0,0,0,0.2) inset;
+}
+
+/*カート要素*/
+#cartmain{
+	float:left;
+	margin-bottom:20px;
+	table-layout:fixed;
+	border-left:5px solid #0066CC;
+}
+
+#cartmain tr:first-child{
+	background-color:#dcdcdc;
+}
+
+#cartmain tr:nth-child(2) td:nth-child(2),
+#cartmain tr:nth-child(2) td:nth-child(3),
+#cartmain tr:nth-child(2) td:nth-child(4),
+#cartmain tr:nth-child(4) td:nth-child(1){
+	width:70px;
+	background-color:#dcdcdc;
+}
+
+#cartmain tr:nth-child(2) td:nth-child(5){
+	background-color:red;
+}
+
+#cartmain tr:nth-child(3){
+	text-align:center;
+}
+
+#cartmain tr:nth-child(3) td:nth-child(3){
+	margin:0;
+	padding:0;
+}
+
+#cartmain tr:nth-child(3) td:nth-child(3) label a{
+	diplay:block;
+	width:70px;
+	height:100px;
+	cursor:pointer;
+}
+
+#cartmain tr:nth-child(3) td:nth-child(3) label:hover{
+	background-color:gray;
+}
+
+#cartmain tr td img{
+	width:200px;
+	height:140px;
+}
+
+/*ページングリスト*/
+#pagelist{
+	clear:both;
+	text-align:center;
+	margin-top:50px;
+}
+
+#pagelist span{
+	diplay:block;
+	width:30px;
+	height:30px;
+	padding:5px;
+	border:2px solid black;
+}
+
+/*ログアウト*/
+#logout button{
+	width:150px;
+	height:50px;
+	margin-top:10px;
+	margin-left:80px;
+	margin-bottom:20px;
+	border:2px solid #dcdcdc;
+	border-radius:15px;
+	cursor:pointer;
+	color:white;
+	font-size:1.2rem;
+	background-color:#0066CC;
+}
+
+#logout button:hover{
+	background-color: #dcdcdc;
+}
+
+/*フッター要素*/
+#footer{
+	clear:left;
+	width:1000px;
+	height:110px;
+	padding-left:10px;
+	background-color:black;
+	text-align:center;
+	line-height:110px;
+}

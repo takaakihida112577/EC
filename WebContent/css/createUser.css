@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+#page{
+	width:1000px;
+	height:1020px;
+	border: 1px solid black;
+	overflow:hidden;
+	margin:0 auto;
+}
+
+
+/*ヘッダー要素*/
+#header{
+	width:1000px;
+	height:110px;
+	padding-left:10px;
+	background-color:black
+}
+
+#header-left{
+	float:left;
+}
+
+#header img{
+	width:400px;
+	height:110px;
+}
+
+#header-right{
+	float:right;
+	margin-top:20px;
+	margin-right:30px;
+	border: 1px solid black;
+}
+
+#header-right i{
+	color:#0066CC;
+	font-size:4rem;
+	margin-right:40px;
+	cursor:pointer;
+}
+
+#header-right i:hover{
+	color:white;
+}
+
+/*会員登録フォーム要素*/
+
+#main{
+	text-align:center;
+}
+
+#main h1{
+	border-bottom:5px double black;
+}
+
+#main table{
+	width:600px;
+	height:400px;
+	border:1px solid #dcdcdc;
+}
+
+#main table tr td:nth-child(1),
+#main table tr td:nth-child(2),
+#main table tr td:nth-child(3){
+	border-left:5px solid orange;
+}
+
+#main table tr:nth-child(odd){
+	background-color:#dcdcdc;
+}
+
+#main table td input{
+	width:200px;
+}
+
+#rule{
+	width:400px;
+	height:120px;
+	margin: 0 auto;
+	font-size:0.8rem;
+	overflow:scroll;
+}
+
+#main label{
+	border-bottom:3px dotted #dcdcdc;
+	cursor:pointer;
+}
+
+#main label:hover{
+	border-bottom:3px dotted black;
+}
+
+#completebutton{
+	width:150px;
+	height:50px;
+	border:2px solid #dcdcdc;
+	border-radius:15px;
+	cursor:pointer;
+}
+
+#completebutton:hover{
+	background-color: #dcdcdc;
+}
+
+/*チェンジユーザー*/
+#main table tr td button{
+	width:150px;
+	height:30px;
+	border:2px solid #dcdcdc;
+	border-radius:10px;
+	cursor:pointer;
+}
+
+/*フッター要素*/
+#footer{
+	position:absolute;
+	margin-bottom:0px;
+	bottom:-420px;
+	width:990px;
+	height:110px;
+	padding-left:10px;
+	background-color:black;
+	text-align:center;
+	line-height:110px;
+}

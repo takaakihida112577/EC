@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<constant name="struts.devMode" value="true"/>
+	<package name="com.internousdev.EC.action" extends="struts-default">
+	<action name="LoginAction" class="com.internousdev.EC.action.LoginAction" method="execute">
+	<result name="success">home.jsp</result>
+	<result name="error">welcome.jsp</result>
+	<result name="admin">admin.jsp</result>
+	</action>
+	<action name="SelectItemCategoryAction" class="com.internousdev.EC.action.SelectItemCategoryAction" method="execute">
+	<result name="success">home.jsp</result>
+	</action>
+	<action name="SelectItemAction" class="com.internousdev.EC.action.SelectItemAction" method="execute">
+	<result name="success">buyItem.jsp</result>
+	</action>
+	<action name="BuyItemAction" class="com.internousdev.EC.action.BuyItemAction" method="execute">
+	<result name="success">buyItemConfirm.jsp</result>
+	<result name="error">buyItem.jsp</result>
+	</action>
+	<action name="BuyItemCompleteAction" class="com.internousdev.EC.action.BuyItemCompleteAction" method="execute">
+	<result name="success">buyItemComplete.jsp</result>
+	<result name="error">buyItemError.jsp</result>
+	</action>
+	<action name="CartAction" class="com.internousdev.EC.action.CartAction" method="execute">
+	<result name="success">cart.jsp</result>
+	</action>
+	<action name="CartCompleteAction" class="com.internousdev.EC.action.CartCompleteAction" method="execute">
+	<result name="success">buyItemConfirm.jsp</result>
+	</action>
+	<action name="CartDeleteAction" class="com.internousdev.EC.action.CartDeleteAction" method="execute">
+	<result name="success">cart.jsp</result>
+	</action>
+	<action name="UserInsertAction" class="com.internousdev.EC.action.UserInsertAction" method="execute">
+	<result name="success">createUserComplete.jsp</result>
+	</action>
+	<action name="CreateUserCompleteAction" class="com.internousdev.EC.action.CreateUserCompleteAction" method="execute">
+	<result name="success">createUserFinish.jsp</result>
+	</action>
+	<action name="MyPageAction" class="com.internousdev.EC.action.MyPageAction" method="execute">
+	<result name="success">mypage.jsp</result>
+	</action>
+	<action name="ChargePointAction" class="com.internousdev.EC.action.ChargePointAction" method="execute">
+	<result name="success">chargeComplete.jsp</result>
+	</action>
+	<action name="GoHomeAction" class="com.internousdev.EC.action.GoHomeAction" method="execute">
+	<result name="success">home.jsp</result>
+	</action>
+	<action name="ReviewFormAction" class="com.internousdev.EC.action.ReviewFormAction" method="execute">
+	<result name="success">reviewForm.jsp</result>
+	</action>
+	<action name="ReviewInsertAction" class="com.internousdev.EC.action.ReviewInsertAction" method="execute">
+	<result name="success">reviewInsertComplete.jsp</result>
+	</action>
+	<action name="DeleteAllBuyItemInfoAction" class="com.internousdev.EC.action.DeleteAllBuyItemInfoAction" method="execute">
+	<result name="success">deleteBuyItemInfo.jsp</result>
+	</action>
+	<action name="DeleteBuyItemInfoAction" class="com.internousdev.EC.action.DeleteBuyItemInfoAction" method="execute">
+	<result name="success">deleteBuyItemInfo.jsp</result>
+	</action>
+	<action name="SerchAction" class="com.internousdev.EC.action.SerchAction" method="execute">
+	<result name="success">home.jsp</result>
+	</action>
+	<action name="InsertNewItemAction" class="com.internousdev.EC.action.InsertNewItemAction" method="execute">
+	<result name="success">admin.jsp</result>
+	</action>
+	<action name="LogoutAction" class="com.internousdev.EC.action.LogoutAction" method="execute">
+	<result name="back">welcome.jsp</result>
+	</action>
+	</package>
+</struts>

@@ -1,0 +1,347 @@
+@CHARSET "UTF-8";
+
+body{
+}
+
+#page{
+	width:1000px;
+	border: 1px solid black;
+	overflow:hidden;
+	margin:0 auto;
+}
+
+
+/*ヘッダー要素*/
+#header{
+	width:1000px;
+	height:110px;
+	padding-left:10px;
+	margin:0px;
+	background-color:black
+}
+
+#header-left{
+	float:left;
+}
+
+#header img{
+	width:400px;
+	height:105px;
+}
+
+#header-right{
+	float:right;
+	margin-top:25px;
+	border: 1px solid black;
+}
+
+#header-right i{
+	float:left;
+	color:#0066CC;
+	font-size:4rem;
+	margin-right:40px;
+	cursor:pointer;
+}
+
+#header-right i:hover{
+	color:white;
+}
+
+/*検索要素*/
+#serch{
+	clear:left;
+	height:70px;
+	border-bottom: 3px solid black;
+	background-color:orange;
+}
+
+#serch select{
+	float:left;
+	width:100px;
+	height:42px;
+	margin-top:15px;
+	margin-left:170px;
+	font-size:1.1rem;
+}
+
+#serch input{
+	float:left;
+	width:400px;
+	height:30px;
+	margin-top:15px;
+	border:5px solid gray;
+}
+
+#serch input:focus{
+	border:solid 5px #0066CC;
+}
+
+#serch button{
+	float:left;
+	height:40px;
+	width:80px;
+	margin-top:16px;
+	cursor:pointer;
+}
+
+#serch nutton:hover{
+	background-color:white;
+}
+
+#serch label{
+	float:left;
+	margin-top:24px;
+	margin-left:20px;
+	cursor:pointer;
+}
+
+#serch label:hover{
+	color:gray;
+}
+
+#serch label i{
+	font-size:1.7rem;
+}
+
+/*スライダー*/
+.slider img{
+	width:450px;
+};
+
+/*ログインユーザー*/
+#loginuser{
+	padding:10px;
+}
+
+#loginuser table tr td i{
+	font-size:7rem;
+}
+
+#loginuser table tr td p{
+	border-left:10px double orange;
+	border-right:5px solid orange;
+	box-shadow:0.7px 0.7px 0.7px 0.7px rgba(0,0,0,0.2) inset;
+}
+
+
+/*商品選択要素*/
+#left{
+	float:left;
+	width:29%;
+}
+
+#left ul{
+	list-style:none;
+}
+
+#left ul li{
+	display:block;
+	height:30px;
+	width:200px;
+	margin-bottom:10px;
+	line-height:30px;
+	text-align:center;
+	border-bottom:3px solid gray;
+	border-left:10px solid orange;
+	cursor:pointer;
+}
+
+#left ul li:hover{
+	background-color:gray;
+	transition: 0.6s ;
+}
+
+/*商品表示要素*/
+#main{
+	float:left;
+	width:62%;
+	padding:40px;
+	border-left:1px solid black;
+}
+
+#item{
+	margin-left:40px;
+}
+
+#itemtable{
+	border-left:5px solid orange;
+	margin-bottom:20px;
+	table-layout: fixed;
+}
+
+#itemtable tr:last-child td{
+	width:500px;
+	height:100px;
+	padding:0;
+	margin:0;
+}
+
+#itemtable tr td label{
+	cursor:pointer;
+}
+
+#itemtable tr td label span{
+	display:block;
+	height:200px;
+}
+
+#itemtable tr:last-child td:hover{
+	background-color:gray;
+}
+
+#itemtable tr td label img{
+	top:0px;
+	width:100%;
+	height:200px;
+}
+
+/*商品紹介ページ関連*/
+#main h1{
+	left:100px;
+	width:400px;
+	border-left:10px double orange;
+	border-right:5px solid orange;
+	box-shadow:0.7px 0.7px 0.7px 0.7px rgba(0,0,0,0.2) inset;
+}
+
+#itemimage{
+	float:left;
+	width:200px;
+	height:200px;
+	border:1px solid gray;
+	box-shadow: 5px 10px 20px rgba(0,0,0,0.25);
+}
+
+#itemexplan{
+	float:left;
+	width:300px;
+	height:200px;
+	padding:20px;
+}
+
+#itemmain{
+	clear:both;
+	width:500px;
+	margin-top:20px;
+	border-top:2px dotted gray;
+	border-bottom:2px dotted gray;
+}
+
+#itemprice{
+	clear:right;
+	width:300px;
+	font-size:1.5rem;
+	color:red;
+}
+
+#buy{
+	float:right;
+	margin-right:90px;
+	margin-top:-35px;
+}
+
+#buy button{
+	background-color:orange;
+	border-radius:4px;
+	box-shadow:0.5px 0.5px;
+	width:60px;
+	height:35px;
+}
+
+#buy button:hover{
+	background-color:#ff8c00;
+	box-shadow:0.7px 0.7px 0.7px 0.7px rgba(0,0,0,0.2) inset;
+}
+
+#buy i{
+	font-size:3rem;
+}
+
+/*レビュー*/
+#review{
+	padding:40px;
+}
+
+#review h1{
+	width:140px;
+	border-left:10px double #0066CC;
+	border-right:5px solid #0066CC;
+	box-shadow:0.7px 0.7px 0.7px 0.7px rgba(0,0,0,0.2) inset;
+}
+
+#reviewmain{
+	background-color:#EEEEEE;
+}
+
+#reviewmain h3{
+	color:blue;
+}
+
+/*カート要素*/
+#cartmain{
+	float:left;
+	margin-bottom:20px;
+	table-layout:fixed;
+	border-left:5px solid #0066CC;
+}
+
+#cartmain tr:first-child{
+	background-color:#dcdcdc;
+}
+
+#cartmain tr:nth-child(2) td:nth-child(2),
+#cartmain tr:nth-child(2) td:nth-child(3),
+#cartmain tr:nth-child(4) td:nth-child(1){
+	width:70px;
+	background-color:#dcdcdc;
+}
+
+#cartmain tr td img{
+	width:300px;
+	height:200px;
+}
+
+#cartbutton button{
+	float:left;
+	margin-top:80px;
+	background:none;
+	border:0;
+}
+
+#cartbutton i{
+	font-size:4rem;
+	cursor:pointer;
+}
+
+#cartbutton i:hover{
+	color:#dcdcdc;
+}
+
+/*ページング機能*/
+#pagelist{
+	text-align:center;
+	margin-top:50px;
+}
+
+#pagelist span{
+	diplay:block;
+	width:30px;
+	height:30px;
+	padding:5px;
+	border:2px solid black;
+}
+
+/*フッター要素*/
+#footer{
+	clear:left;
+	width:1000px;
+	height:110px;
+	padding-left:10px;
+	background-color:black;
+	text-align:center;
+	line-height:110px;
+}
+
+#footer{
+
+}
